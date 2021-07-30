@@ -11,7 +11,7 @@ import { FiMenu, BiPlayCircle} from 'react-icons/all';
 
 const Navbar = () => {
     
-const words = ["Solution"];
+const words = ["We are here for every Solution."];
 const [index, setIndex] = useState(0);
 const [subIndex, setSubIndex] = useState(0);
 const [blink, setBlink] = useState(true);
@@ -72,7 +72,7 @@ useEffect(() => {
             <div className= "main"  style={{width: '80%',margin: 'auto'}}>
                 <div className= "content1">
                     <h1 style={{ marginBottom: "6px", fontSize: "40px"}}>Don't worry.</h1>
-                    <h1 >We are here for every {`${words[index].substring(0, subIndex)}${blink ? "." : " "}`}</h1>
+                    <h1 >{`${words[index].substring(0, subIndex)}${blink ? "" : " "}`}</h1>
                     <p style={{ marginBottom: "10px", fontSize: '13px', lineHeight: '2'}}>Bushwich meh Blue Bottle pork belly mustache skateboard 3 wolf moon. Actually beard single-origin coffee, twee 90's PBR Echo Park</p>
                     <div className= "buttonalign"  style= {{ display: "flex", justifycontent: "space-between", alignItems: "flex-start" }}>
                             <button className="content-btn1">Get Started</button>

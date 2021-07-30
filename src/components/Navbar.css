@@ -101,7 +101,7 @@
        height: 400px !important;
     }
     .main {
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: 100% !important;
         padding: 0 !important;
     }  
